@@ -1,20 +1,18 @@
 //
-//  AINOTESAPPApp.swift
-//  AINOTESAPP
-//
-//  Created by Riya Shukla on 02/10/25.
+//  AINotesAppApp.swift
+//  AINotesApp
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
-struct AINOTESAPPApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct AINotesAppApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
