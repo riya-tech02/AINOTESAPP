@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		01AAB7552E8E226F008F43AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AAB7382E8E226E008F43AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AAB73F2E8E226E008F43AD;
+			remoteInfo = AINOTESAPP;
+		};
+		01AAB75F2E8E226F008F43AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AAB7382E8E226E008F43AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AAB73F2E8E226E008F43AD;
+			remoteInfo = AINOTESAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AAB7402E8E226E008F43AD /* AINOTESAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AINOTESAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AAB7542E8E226F008F43AD /* AINOTESAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AINOTESAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AAB75E2E8E226F008F43AD /* AINOTESAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AINOTESAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		01AAB7662E8E226F008F43AD /* Exceptions for "AINOTESAPP" folder in "AINOTESAPP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 01AAB73F2E8E226E008F43AD /* AINOTESAPP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		01AAB7422E8E226E008F43AD /* AINOTESAPP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				01AAB7662E8E226F008F43AD /* Exceptions for "AINOTESAPP" folder in "AINOTESAPP" target */,
+			);
+			path = AINOTESAPP;
+			sourceTree = "<group>";
+		};
+		01AAB7572E8E226F008F43AD /* AINOTESAPPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AINOTESAPPTests;
+			sourceTree = "<group>";
+		};
+		01AAB7612E8E226F008F43AD /* AINOTESAPPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AINOTESAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AAB73D2E8E226E008F43AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AAB7512E8E226F008F43AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AAB75B2E8E226F008F43AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AAB7372E8E226E008F43AD = {
+			isa = PBXGroup;
+			children = (
+				01AAB7422E8E226E008F43AD /* AINOTESAPP */,
+				01AAB7572E8E226F008F43AD /* AINOTESAPPTests */,
+				01AAB7612E8E226F008F43AD /* AINOTESAPPUITests */,
+				01AAB7412E8E226E008F43AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AAB7412E8E226E008F43AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AAB7402E8E226E008F43AD /* AINOTESAPP.app */,
+				01AAB7542E8E226F008F43AD /* AINOTESAPPTests.xctest */,
+				01AAB75E2E8E226F008F43AD /* AINOTESAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AAB73F2E8E226E008F43AD /* AINOTESAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AAB7672E8E226F008F43AD /* Build configuration list for PBXNativeTarget "AINOTESAPP" */;
+			buildPhases = (
+				01AAB73C2E8E226E008F43AD /* Sources */,
+				01AAB73D2E8E226E008F43AD /* Frameworks */,
+				01AAB73E2E8E226E008F43AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				01AAB7422E8E226E008F43AD /* AINOTESAPP */,
+			);
+			name = AINOTESAPP;
+			packageProductDependencies = (
+			);
+			productName = AINOTESAPP;
+			productReference = 01AAB7402E8E226E008F43AD /* AINOTESAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01AAB7532E8E226F008F43AD /* AINOTESAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AAB76C2E8E226F008F43AD /* Build configuration list for PBXNativeTarget "AINOTESAPPTests" */;
+			buildPhases = (
+				01AAB7502E8E226F008F43AD /* Sources */,
+				01AAB7512E8E226F008F43AD /* Frameworks */,
+				01AAB7522E8E226F008F43AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AAB7562E8E226F008F43AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01AAB7572E8E226F008F43AD /* AINOTESAPPTests */,
+			);
+			name = AINOTESAPPTests;
+			packageProductDependencies = (
+			);
+			productName = AINOTESAPPTests;
+			productReference = 01AAB7542E8E226F008F43AD /* AINOTESAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01AAB75D2E8E226F008F43AD /* AINOTESAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AAB76F2E8E226F008F43AD /* Build configuration list for PBXNativeTarget "AINOTESAPPUITests" */;
+			buildPhases = (
+				01AAB75A2E8E226F008F43AD /* Sources */,
+				01AAB75B2E8E226F008F43AD /* Frameworks */,
+				01AAB75C2E8E226F008F43AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AAB7602E8E226F008F43AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				01AAB7612E8E226F008F43AD /* AINOTESAPPUITests */,
+			);
+			name = AINOTESAPPUITests;
+			packageProductDependencies = (
+			);
+			productName = AINOTESAPPUITests;
+			productReference = 01AAB75E2E8E226F008F43AD /* AINOTESAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AAB7382E8E226E008F43AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					01AAB73F2E8E226E008F43AD = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					01AAB7532E8E226F008F43AD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 01AAB73F2E8E226E008F43AD;
+					};
+					01AAB75D2E8E226F008F43AD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 01AAB73F2E8E226E008F43AD;
+					};
+				};
+			};
+			buildConfigurationList = 01AAB73B2E8E226E008F43AD /* Build configuration list for PBXProject "AINOTESAPP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AAB7372E8E226E008F43AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01AAB7412E8E226E008F43AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AAB73F2E8E226E008F43AD /* AINOTESAPP */,
+				01AAB7532E8E226F008F43AD /* AINOTESAPPTests */,
+				01AAB75D2E8E226F008F43AD /* AINOTESAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AAB73E2E8E226E008F43AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AAB7522E8E226F008F43AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AAB75C2E8E226F008F43AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AAB73C2E8E226E008F43AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AAB7502E8E226F008F43AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AAB75A2E8E226F008F43AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01AAB7562E8E226F008F43AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AAB73F2E8E226E008F43AD /* AINOTESAPP */;
+			targetProxy = 01AAB7552E8E226F008F43AD /* PBXContainerItemProxy */;
+		};
+		01AAB7602E8E226F008F43AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AAB73F2E8E226E008F43AD /* AINOTESAPP */;
+			targetProxy = 01AAB75F2E8E226F008F43AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AAB7682E8E226F008F43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AINOTESAPP/AINOTESAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AINOTESAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riya.AINOTESAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01AAB7692E8E226F008F43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AINOTESAPP/AINOTESAPP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AINOTESAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riya.AINOTESAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01AAB76A2E8E226F008F43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01AAB76B2E8E226F008F43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AAB76D2E8E226F008F43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riya.AINOTESAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AINOTESAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AINOTESAPP";
+			};
+			name = Debug;
+		};
+		01AAB76E2E8E226F008F43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riya.AINOTESAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AINOTESAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AINOTESAPP";
+			};
+			name = Release;
+		};
+		01AAB7702E8E226F008F43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riya.AINOTESAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AINOTESAPP;
+			};
+			name = Debug;
+		};
+		01AAB7712E8E226F008F43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = riya.AINOTESAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AINOTESAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AAB73B2E8E226E008F43AD /* Build configuration list for PBXProject "AINOTESAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AAB76A2E8E226F008F43AD /* Debug */,
+				01AAB76B2E8E226F008F43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AAB7672E8E226F008F43AD /* Build configuration list for PBXNativeTarget "AINOTESAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AAB7682E8E226F008F43AD /* Debug */,
+				01AAB7692E8E226F008F43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AAB76C2E8E226F008F43AD /* Build configuration list for PBXNativeTarget "AINOTESAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AAB76D2E8E226F008F43AD /* Debug */,
+				01AAB76E2E8E226F008F43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AAB76F2E8E226F008F43AD /* Build configuration list for PBXNativeTarget "AINOTESAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AAB7702E8E226F008F43AD /* Debug */,
+				01AAB7712E8E226F008F43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01AAB7382E8E226E008F43AD /* Project object */;
+}
