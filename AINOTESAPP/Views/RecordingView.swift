@@ -206,7 +206,7 @@ struct RecordingView: View {
         guard !transcript.isEmpty else { return }
         
         // Create note from transcript
-        var newNote = Note(
+        let newNote = Note(
             title: AIService.shared.generateTitle(from: transcript),
             content: transcript,
             summary: AIService.shared.summarize(transcript),

@@ -1,4 +1,3 @@
-
 //
 //  ContentView.swift
 //  AINotesApp
@@ -253,3 +252,4 @@ struct SettingsView: View {
 #Preview {
     ContentView()
 }
+

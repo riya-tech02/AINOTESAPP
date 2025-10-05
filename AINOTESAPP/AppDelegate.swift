@@ -15,7 +15,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         // Optional: Enable offline persistence
         let settings = FirestoreSettings()
-        settings.isPersistenceEnabled = true
+        settings .isPersistenceEnabled = true
         settings.cacheSizeBytes = FirestoreCacheSizeUnlimited
         
         let db = Firestore.firestore()

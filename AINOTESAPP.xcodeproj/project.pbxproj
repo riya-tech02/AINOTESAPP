@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AAB7462E8E226E008F43AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AAB7452E8E226E008F43AD /* ContentView.swift */; };
+		014D2D802E90140400BBF18D /* contentview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D2D7F2E90140400BBF18D /* contentview.swift */; };
 		01AAB7BA2E8E51FA008F43AD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 01AAB7B92E8E51FA008F43AD /* FirebaseAuth */; };
 		01AAB7BC2E8E5206008F43AD /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 01AAB7BB2E8E5206008F43AD /* FirebaseCore */; };
 		01AAB7BE2E8E5210008F43AD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 01AAB7BD2E8E5210008F43AD /* FirebaseStorage */; };
@@ -32,8 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014D2D7F2E90140400BBF18D /* contentview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentview.swift; sourceTree = "<group>"; };
 		01AAB7402E8E226E008F43AD /* AINOTESAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AINOTESAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		01AAB7452E8E226E008F43AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01AAB7542E8E226F008F43AD /* AINOTESAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AINOTESAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AAB75E2E8E226F008F43AD /* AINOTESAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AINOTESAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,7 +101,7 @@
 		01AAB7372E8E226E008F43AD = {
 			isa = PBXGroup;
 			children = (
-				01AAB7452E8E226E008F43AD /* ContentView.swift */,
+				014D2D7F2E90140400BBF18D /* contentview.swift */,
 				01AAB7422E8E226E008F43AD /* AINOTESAPP */,
 				01AAB7572E8E226F008F43AD /* AINOTESAPPTests */,
 				01AAB7612E8E226F008F43AD /* AINOTESAPPUITests */,
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AAB7462E8E226E008F43AD /* ContentView.swift in Sources */,
+				014D2D802E90140400BBF18D /* contentview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
